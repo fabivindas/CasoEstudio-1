@@ -1,0 +1,149 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    padding: 25px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#mensaje {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.exito {
+    color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+.nota-verde {
+    color: green;
+    font-weight: bold;
+}
+
+.nota-roja {
+    color: red;
+    font-weight: bold;
+}
+
+section:last-of-type {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+section:last-of-type p {
+    margin-bottom: 12px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
